@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mi CV</title>
+    <link rel="stylesheet" href="estilo.css">
+
+    
+</head>
+<body>
+    <!--MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Sabrina</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio"onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi"onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#curriculum"onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio"onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto"onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/fotoparaportfolio.jpg" alt="Aca aparece la foto de Sabrina">
+            </div>
+            <h1>Sabrina Rodriguez</h1>
+            <h2>Docente</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre mi</h2>
+            <p><span>Hola, soy Sabrina Rodriguez.</span> Mi profesion es docente, mas precisamente profesora de educacion fisica. Actualmente me desarrollo como tal en un centro educativo a nivel secundario. Iniciandome en el mundo de la programacion, dando mis primeros pasos en desarrollo frontend y descubriendo este mundo nuevo que no deja de sorprenderme en cada curso, aprovechando el espacio para mostrar lo aprendido hasta hoy.</p>
+
+            <div class="fila">
+                <!--Datos personales-->
+                <div class="col">
+                <h3>Datos personales</h3>
+                <ul>
+                    <li>
+                        <strong>Nacimiento</strong>
+                        16-07-1990
+                    </li>
+                    <li>
+                        <strong>Telefono</strong>
+                        +54 1131361843
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        sabrina.rodriguez90@live.com.ar
+                    </li>
+                    <li>
+                        <strong>Ubicacion</strong>
+                        Ciudad autonoma de Buenos Aires, Argentina
+                    </li>
+                    <li>
+                        <strong>Estado civil</strong>
+                        Casada
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!--Intereses-->
+            <div class="col">
+                <h3>Intereses</h3>
+                <div class="contenedor-intereses">
+                    <div class="intereses">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>MUSICA</span>
+                    </div>
+                    <div class="intereses">
+                        <i class="fa-solid fa-plane"></i>
+                        <span>VIAJAR</span>
+                    </div>
+                    <div class="intereses">
+                        <i class="fa-solid fa-computer"></i>
+                        <span>COMPUTER</span>
+                    </div>
+                    <div class="intereses">
+                        <i class="fa-solid fa-futbol"></i>
+                        <span>DEPORTE</span> 
+                    </div>
+                    <div class="intereses">
+                        <i class="fa-solid fa-photo-film"></i>
+                        <span>FOTO/VIDEO</span> 
+                    </div>
+</div>
+<button>
+    Descargar CV <i class="fa-solid fa-download"></i>
+    <span class="overlay"></span>
+</button>
+</div>
+    </section>
+    
+    <!--SECCION CURRICULUM-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="Item izq">
+                        <h4>Educacion secundaria: bachillerato</h4>
+                        <span class="casa">Liceo N° 9</span>
+                        <span class="fecha">2004-2008</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="Item izq">
+                        <h4>Educacion terciaria: Profesorado de educacion fisica</h4>
+                        <span class="casa">ISEFI N°1 "Hugo Quinn"</span>
+                        <span class="fecha">2009-2014</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+        <div class="col derecha">
+            <h3>Experiencia laboral</h3>
+            <div class="Item der">
+                <h4>Profesora de educacion fisica</h4>
+                <span class="casa">Instituto Propuesta actual</span>
+                <span class="fecha">2016-actual</span>
+                <p>Docente titular a cargo de nivel secundario 4to y 5to año.</p>
+                <div class="conectord">
+                    <div class="circulod"></div>
+                </div>
+            </div>
+            <div class="Item der">
+                <h4>Agente de seguro</h4>
+                <span class="casa">Centro de operaciones medicas en Galeno ART</span>
+                <span class="fecha">2015-actual</span>
+                <p>Agente en el "COM" (centro de operaciones medicas) donde gestiono denuncias de accidentes laborales, coordinacion de traslados de asegurados, gestion de pasajes en micros, aereos, hospedajes. Coordinacion de ambulancias y derivaciones a centros medicos propios y/o prestadores realizando un seguimiento y analisis de la gestion.</p>
+                <div class="conectord">
+                    <div class="circulod"></div>
+                </div>
+            </div>
+            <div class="Item der">
+                <h4>Personal Trainner</h4>
+                <span class="casa">Entrenamientos personalizados y en grupos</span>
+                <span class="fecha">2018-actual</span>
+                <p>Desde el 2018 comence a dar clases de manera personalizada en mis tiempos libres generando, al poco tiempo, una cartera de alumnas/os que toman clase tanto presencial como virtual pudiendo de esta manera tener alumnos en España e Inglaterra.</p>
+                <div class="conectord">
+                    <div class="circulod"></div>
+        </div>
+    </div>
+</div>
+    </section>
+
+    <!--SECCION PORTFOLIO-->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Portfolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/Creatividad-Diseño.jpg" alt="imagen creativa">
+                    <div class="overlay">
+                       <h3>Diseño creativo</h3>
+                </div>
+            </div>
+                <div class="proyecto">
+                    <img src="img/diseño.jpg" alt="imagen creativa">
+                    <div class="overlay">
+                       <h3>Diseño creativo</h3>
+                </div>
+            </div>
+                <div class="proyecto">
+                    <img src="img/iStock-1092045154-1.jpg" alt="imagen creativa">
+                    <div class="overlay">
+                       <h3>Diseño creativo</h3>
+                </div>
+            </div>
+                <div class="proyecto">
+                    <img src="img/deporte.png" alt="imagen creativa">
+                    <div class="overlay">
+                       <h3>Diseño creativo</h3>
+                </div>
+            </div>
+                <div class="proyecto">
+                    <img src="img/Responsive-Web-Design-1-1170x700.jpg" alt="imagen creativa">
+                    <div class="overlay">
+                       <h3>Diseño creativo</h3>
+                </div>
+            </div>
+                <div class="proyecto">
+                    <img src="img/3d7a34_creatividad_w730.jpg" alt="imagen creativa">
+                    <div class="overlay">
+                       <h3>Diseño creativo</h3>
+                </div>
+            </div>
+        </div>
+     </div>
+</section>
+
+<!--SECCION CONTACTO-->
+<section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+            <!--Formulario-->
+            <div class="col">
+                <input type="text" placeholder="Tú Nombre">
+                <input type="text" placeholder="Número Telefónico">
+                <input type="text" placeholder="Dirección de correo">
+                <input type="text" placeholder="Asunto">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button>
+                    Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                </button>
+            </div>
+            <!--Mapa-->
+            <div class="col">
+                <img src="img/mapapaint.jpg" alt="Esto es un mapa">
+                <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Enrique Martinez 1250,CABA.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            Cel: +54 11 31361843
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            Email: sabrina.rodriguez90@live.com.ar
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--footer-->
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
